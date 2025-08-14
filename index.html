@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMO - Revolutionizing Clean Energy</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" xintegrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Styles & Colors -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF7; /* Light cream background from logo */
+        }
+        /* Define custom colors from the LUMO logo */
+        .lumo-blue { color: #1E3A4C; }
+        .lumo-green { color: #008080; }
+        .lumo-orange { color: #F9A826; }
+        .bg-lumo-blue { background-color: #1E3A4C; }
+        .bg-lumo-green { background-color: #008080; }
+        .bg-lumo-orange { background-color: #F9A826; }
+        .border-lumo-orange { border-color: #F9A826; }
+        .border-lumo-green { border-color: #008080; }
+        .border-lumo-blue { border-color: #1E3A4C; }
+        .text-dark-gray { color: #333333; }
+
+        /* Animation for elements fading in on scroll */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="text-dark-gray antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold">
+                <span class="lumo-blue">LUM</span><span class="lumo-green">O</span><span class="lumo-orange">
+                    <i class="fas fa-sun"></i>
+                </span>
+            </a>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#challenge" class="hover:lumo-orange transition-colors">The Challenge</a>
+                <a href="#solution" class="hover:lumo-orange transition-colors">Solution</a>
+                <a href="#technology" class="hover:lumo-orange transition-colors">Technology</a>
+                <a href="#business" class="hover:lumo-orange transition-colors">Business</a>
+                <a href="#team" class="hover:lumo-orange transition-colors">Team</a>
+                <a href="#contact" class="bg-lumo-orange text-white font-semibold px-5 py-2 rounded-full hover:bg-opacity-90 transition-all">Get In Touch</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-dark-gray focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4 space-y-2">
+            <a href="#challenge" class="block hover:lumo-orange transition-colors">The Challenge</a>
+            <a href="#solution" class="block hover:lumo-orange transition-colors">Solution</a>
+            <a href="#technology" class="block hover:lumo-orange transition-colors">Technology</a>
+            <a href="#business" class="block hover:lumo-orange transition-colors">Business</a>
+            <a href="#team" class="block hover:lumo-orange transition-colors">Team</a>
+            <a href="#contact" class="block mt-2 bg-lumo-orange text-white text-center font-semibold px-5 py-2 rounded-full hover:bg-opacity-90 transition-all">Get In Touch</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold lumo-blue mb-4 reveal">Revolutionizing Clean Energy Amplification.</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-600 mb-8 reveal" style="transition-delay: 200ms;">LUMO is a compact, AI-powered device that makes clean energy smarter, more efficient, and accessible to everyone by amplifying its potential.</p>
+                <div class="reveal" style="transition-delay: 400ms;">
+                    <a href="#solution" class="bg-lumo-green text-white font-bold px-8 py-4 rounded-full hover:bg-opacity-90 transition-all text-lg">Discover LUMO</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Images Section -->
+        <section class="pb-20">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="reveal"><img src="https://i.ibb.co/5gVBhwhv/Whats-App-Image-2025-08-13-at-23-41-15-a7b5fd74.jpg" alt="LUMO device front view" class="rounded-2xl shadow-xl w-full h-auto object-cover"></div>
+                    <div class="reveal" style="transition-delay: 200ms;"><img src="https://i.ibb.co/S7rs63WJ/Whats-App-Image-2025-08-13-at-23-40-47-ff455d58.jpg" alt="LUMO device with ports" class="rounded-2xl shadow-xl w-full h-auto object-cover"></div>
+                    <div class="reveal" style="transition-delay: 400ms;"><img src="https://i.ibb.co/hFK0f263/Whats-App-Image-2025-08-13-at-23-40-48-8ac86dc9.jpg" alt="LUMO solar enhancement sheet" class="rounded-2xl shadow-xl w-full h-auto object-cover"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Challenge Section -->
+        <section id="challenge" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold lumo-blue reveal">The Challenge with Clean Energy</h2>
+                    <p class="text-lg text-gray-600 mt-4 max-w-3xl mx-auto reveal" style="transition-delay: 200ms;">Clean energy is our future, but it's held back by inefficiency and inaccessibility. Existing systems lack the intelligence to optimize in real-time, leading to wasted potential and high costs, especially in underserved areas.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-lg reveal">
+                    <h3 class="text-2xl font-bold lumo-green mb-6 text-center">The Energy Struggle: Itire/Ikate Case Study</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left min-w-[700px]">
+                            <thead class="bg-gray-200">
+                                <tr>
+                                    <th class="p-4 rounded-tl-lg">Household</th>
+                                    <th class="p-4">Daily Power Access</th>
+                                    <th class="p-4">Weekly Outages</th>
+                                    <th class="p-4">Backup Source</th>
+                                    <th class="p-4 rounded-tr-lg">Effect/Challenge</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b"><td class="p-4 font-semibold">Chidera (Student)</td><td class="p-4">6.5 hours</td><td class="p-4">11x</td><td class="p-4">None</td><td class="p-4">Misses online classes, struggles to charge</td></tr>
+                                <tr class="border-b"><td class="p-4 font-semibold">Mr. Okonkwo (Welder)</td><td class="p-4">4 hours</td><td class="p-4">9x</td><td class="p-4">Fuel Generator</td><td class="p-4">₦6,000/week on fuel, loud noise</td></tr>
+                                <tr class="border-b"><td class="p-4 font-semibold">Nkechi (Trader)</td><td class="p-4">3.5 hours</td><td class="p-4">7x</td><td class="p-4">Power bank + solar</td><td class="p-4">Sales drop, POS machines frequently down</td></tr>
+                                <tr class="border-b"><td class="p-4 font-semibold">Tunde (Freelancer)</td><td class="p-4">3 hours</td><td class="p-4">8x</td><td class="p-4">Low-yield solar panel</td><td class="p-4">Missed deadlines, poor Wi-Fi uptime</td></tr>
+                                <tr class="border-b"><td class="p-4 font-semibold">Uju’s Family (Nurses)</td><td class="p-4">5 hours</td><td class="p-4">7x</td><td class="p-4">Generator + inverter</td><td class="p-4">Homework disruption, costly battery swaps</td></tr>
+                                <tr class="border-b"><td class="p-4 font-semibold">Mama Chika (Cook)</td><td class="p-4">2 hours</td><td class="p-4">6x</td><td class="p-4">Rechargeable lamp</td><td class="p-4">Spoiled food, early closure</td></tr>
+                                <tr class="border-b"><td class="p-4 font-semibold">Obi’s House</td><td class="p-4">9 hours</td><td class="p-4">7x</td><td class="p-4">Inverter (low-capacity)</td><td class="p-4">Charging limited, fridge downtime</td></tr>
+                                <tr><td class="p-4 font-semibold">Arike (Stylist)</td><td class="p-4">3.5 hours</td><td class="p-4">5x</td><td class="p-4">Fuel Generator</td><td class="p-4">Client delays, loud & expensive operation</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                     <p class="text-center mt-6 text-gray-600 italic max-w-2xl mx-auto">Over 75% of households depend on unreliable or costly backups. This data underscores a deep need for a smarter, scalable system—the very gap LUMO is built to fill.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Solution Section -->
+        <section id="solution" class="py-20">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div class="reveal">
+                    <img src="https://i.ibb.co/fVrQXM0L/Gemini-Generated-Image-gs2p6tgs2p6tgs2p-2.jpg" alt="Smart Energy Diagram" class="rounded-2xl shadow-xl">
+                </div>
+                <div class="reveal" style="transition-delay: 200ms;">
+                    <h2 class="text-3xl md:text-4xl font-bold lumo-blue mb-6">Our Mission: A Smart Energy Ecosystem</h2>
+                    <p class="text-lg text-gray-600 mb-8">We are building a smart energy ecosystem with four core objectives designed to tackle the energy crisis head-on.</p>
+                    <ul class="space-y-6">
+                        <li class="flex items-start"><div class="text-2xl lumo-green mr-4"><i class="fa-solid fa-bolt-lightning"></i></div><div><h4 class="font-bold text-xl">Efficiency</h4><p class="text-gray-600">Maximizing energy output from every source with our unique solar enhancement sheet.</p></div></li>
+                        <li class="flex items-start"><div class="text-2xl lumo-green mr-4"><i class="fa-solid fa-brain"></i></div><div><h4 class="font-bold text-xl">AI Optimization</h4><p class="text-gray-600">Using AI to predict and manage energy flow in real-time for peak performance.</p></div></li>
+                        <li class="flex items-start"><div class="text-2xl lumo-green mr-4"><i class="fa-solid fa-users"></i></div><div><h4 class="font-bold text-xl">Local Growth</h4><p class="text-gray-600">Partnering with local micro-factories to create jobs and reduce costs.</p></div></li>
+                         <li class="flex items-start"><div class="text-2xl lumo-green mr-4"><i class="fa-solid fa-hand-holding-dollar"></i></div><div><h4 class="font-bold text-xl">Accessibility</h4><p class="text-gray-600">Making clean energy affordable for everyone through modular design and leasing.</p></div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Technology Section -->
+        <section id="technology" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold lumo-blue reveal">Our Technology</h2>
+                    <p class="text-lg text-gray-600 mt-4 max-w-3xl mx-auto reveal" style="transition-delay: 200ms;">LUMO's innovation lies in its hardware design and intelligent software, working together to deliver superior performance.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-start">
+                    <!-- Manufacturing Process -->
+                    <div class="reveal">
+                        <h3 class="text-2xl font-bold lumo-green mb-6">How LUMO is Manufactured</h3>
+                        <ol class="relative border-l border-gray-200 space-y-8">
+                            <li class="ml-6"><span class="absolute flex items-center justify-center w-6 h-6 bg-lumo-green rounded-full -left-3 ring-8 ring-white"><i class="fa-solid fa-pen-ruler text-white text-xs"></i></span><h4 class="font-semibold">Design & Planning</h4><p class="text-sm text-gray-600">Circuit layout in KiCad, casing modeled in Blender/Fusion 360.</p></li>
+                            <li class="ml-6"><span class="absolute flex items-center justify-center w-6 h-6 bg-lumo-green rounded-full -left-3 ring-8 ring-white"><i class="fa-solid fa-box text-white text-xs"></i></span><h4 class="font-semibold">Component Sourcing</h4><p class="text-sm text-gray-600">Microcontrollers, AI modules, sensors sourced from trusted vendors.</p></li>
+                            <li class="ml-6"><span class="absolute flex items-center justify-center w-6 h-6 bg-lumo-green rounded-full -left-3 ring-8 ring-white"><i class="fa-solid fa-microchip text-white text-xs"></i></span><h4 class="font-semibold">PCB Fabrication</h4><p class="text-sm text-gray-600">Fabricated via PCBWay, DIY etching, or local makerspaces.</p></li>
+                            <li class="ml-6"><span class="absolute flex items-center justify-center w-6 h-6 bg-lumo-green rounded-full -left-3 ring-8 ring-white"><i class="fa-solid fa-robot text-white text-xs"></i></span><h4 class="font-semibold">AI Integration & Assembly</h4><p class="text-sm text-gray-600">ESP32 + lightweight AI modules assembled in an ABS casing.</p></li>
+                            <li class="ml-6"><span class="absolute flex items-center justify-center w-6 h-6 bg-lumo-green rounded-full -left-3 ring-8 ring-white"><i class="fa-solid fa-mobile-screen text-white text-xs"></i></span><h4 class="font-semibold">App Sync & Software</h4><p class="text-sm text-gray-600">Firmware installation and connection to mobile app and cloud dashboard.</p></li>
+                        </ol>
+                    </div>
+                    <!-- Solar Sheet Design -->
+                    <div class="reveal" style="transition-delay: 200ms;">
+                         <h3 class="text-2xl font-bold lumo-green mb-6">Solar Enhancement Sheet</h3>
+                         <div class="bg-gray-50 p-6 rounded-2xl shadow-lg">
+                             <img src="https://i.ibb.co/k6czSymn/Gemini-Generated-Image-nvkmzznvkmzznvkm.jpg" alt="Solar Enhancement Sheet Technology" class="rounded-xl mb-4 w-full">
+                            <ul class="space-y-3 text-gray-700">
+                                <li class="flex items-start"><i class="fas fa-check-circle text-lumo-orange mt-1 mr-2"></i><span>Engineered to concentrate ambient and low-light rays onto the panel.</span></li>
+                                <li class="flex items-start"><i class="fas fa-check-circle text-lumo-orange mt-1 mr-2"></i><span>Made from translucent material with embedded nano-lens or micro-prism arrays.</span></li>
+                                <li class="flex items-start"><i class="fas fa-check-circle text-lumo-orange mt-1 mr-2"></i><span>Incorporates photoluminescent pigments to re-emit light at optimal wavelengths.</span></li>
+                                <li class="flex items-start"><i class="fas fa-check-circle text-lumo-orange mt-1 mr-2"></i><span>Works under moonlight or street lighting for night-time trickle charging.</span></li>
+                            </ul>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Model & Financials Section -->
+        <section id="business" class="py-20">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold lumo-blue reveal">Business Model & Financials</h2>
+                    <p class="text-lg text-gray-600 mt-4 max-w-3xl mx-auto reveal" style="transition-delay: 200ms;">Our multi-stream revenue model is designed for sustainable growth and market penetration, with clear financial projections for our pilot phase.</p>
+                </div>
+                <!-- Business Model -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-lumo-green reveal"><h4 class="font-bold text-xl lumo-blue">Hardware Sales</h4><p class="text-gray-600 mt-2">One-time purchases of LUMO units bundled with solar sheets.</p></div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-lumo-orange reveal" style="transition-delay: 100ms;"><h4 class="font-bold text-xl lumo-blue">App Subscription</h4><p class="text-gray-600 mt-2">Monthly/annual plans for premium features like analytics and forecasting.</p></div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-lumo-blue reveal" style="transition-delay: 200ms;"><h4 class="font-bold text-xl lumo-blue">Micro-leasing</h4><p class="text-gray-600 mt-2">Rent-to-own plans to increase accessibility for low-income households.</p></div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-lumo-green reveal" style="transition-delay: 300ms;"><h4 class="font-bold text-xl lumo-blue">Local Partnerships</h4><p class="text-gray-600 mt-2">Partnering with micro-factories to reduce cost and empower communities.</p></div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-lumo-orange reveal" style="transition-delay: 400ms;"><h4 class="font-bold text-xl lumo-blue">Energy Marketplace</h4><p class="text-gray-600 mt-2">(Future) A decentralized credit system for peer-to-peer power sharing.</p></div>
+                </div>
+                <!-- Financials -->
+                <div class="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-lg reveal">
+                    <h3 class="text-2xl font-bold lumo-green mb-6 text-center">Financial Projections (Pilot Phase)</h3>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                        <div><p class="text-gray-500">Startup Capital</p><p class="text-2xl font-bold lumo-blue">₦1.4M – ₦2.35M</p></div>
+                        <div><p class="text-gray-500">Pilot Target</p><p class="text-2xl font-bold lumo-blue">50 Devices</p></div>
+                        <div><p class="text-gray-500">Break-even Point</p><p class="text-2xl font-bold lumo-blue">~40 Units Sold</p></div>
+                        <div><p class="text-gray-500">Total Projected Revenue</p><p class="text-2xl font-bold lumo-blue">₦3.4M – ₦5.1M</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold lumo-blue reveal">Meet the Team</h2>
+                    <p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto reveal" style="transition-delay: 200ms;">The minds behind LUMO, combining expertise in earth science, data science, and technology.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <div class="text-center reveal">
+                        <img src="https://i.ibb.co/S7N88qFv/Whats-App-Image-2025-08-10-at-22-58-16-47d5679d.jpg" alt="Abdul-Lateef Adejare" class="mx-auto rounded-full h-32 w-32 mb-4 object-cover">
+                        <h4 class="text-xl font-bold">Abdul-Lateef Adejare</h4>
+                        <p class="lumo-green">Geology</p>
+                    </div>
+                    <div class="text-center reveal" style="transition-delay: 200ms;">
+                        <img src="https://i.ibb.co/hxSvrLRt/Whats-App-Image-2025-08-10-at-22-49-50-51f16c12.jpg" alt="Iwuoha David" class="mx-auto rounded-full h-32 w-32 mb-4 object-cover">
+                        <h4 class="text-xl font-bold">Iwuoha David</h4>
+                        <p class="lumo-green">Geophysics</p>
+                    </div>
+                    <div class="text-center reveal" style="transition-delay: 400ms;">
+                        <img src="https://i.ibb.co/qFnpmwk3/Whats-App-Image-2025-08-13-at-17-23-37-0f2e1a29.jpg" alt="Lasisi Quadri" class="mx-auto rounded-full h-32 w-32 mb-4 object-cover">
+                        <h4 class="text-xl font-bold">Lasisi Quadri</h4>
+                        <p class="lumo-green">Data Science</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to Action / Roadmap Section -->
+        <section id="contact" class="py-20 bg-lumo-blue text-white">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold reveal">Join the Mission. Build the Future.</h2>
+                 <p class="text-lg text-gray-300 mt-4 max-w-3xl mx-auto reveal" style="transition-delay: 200ms;">Support our vision for decentralized, intelligent, and affordable clean energy access. Be part of LUMO’s journey—from idea to impact.</p>
+                 <div class="mt-8 reveal" style="transition-delay: 400ms;">
+                     <a href="mailto:qlasisi15@gmail.com" class="bg-lumo-orange text-white font-bold px-8 py-4 rounded-full hover:bg-opacity-90 transition-all text-lg">Contact Us</a>
+                 </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 LUMO. All Rights Reserved.</p>
+            <p class="mt-2">A project by Abdul-Lateef Adejare, Iwuoha David, and Lasisi Quadri.</p>
+            <div class="mt-4 flex justify-center space-x-6">
+                <a href="#" class="hover:text-lumo-orange transition-colors"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="hover:text-lumo-orange transition-colors"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="#" class="hover:text-lumo-orange transition-colors"><i class="fab fa-facebook fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for interactivity -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Scroll reveal animation
+        const revealElements = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        revealElements.forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
